@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px;
+}
+#nav h3{
+  
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    font-size: 22px;
+    margin-left: 5px;
+    border-radius: 50px;
+
+}
+#int{
+    height: 45%;
+    width: 100%;
+    background-color: bisque;
+    padding: 20px;
+}
+#int h1{
+    font-size: 130px;
+    letter-spacing: -3px;
+    line-height: 120px;
+}
+#place{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#place h3,#place h4{
+    font-size: 30px;
+    font-weight: 600;
+}
+#mainimage{
+    height: 85%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1607705703571-c5a8695f18f6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover
+    ;
+}
+#about{
+    height: 45%;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 60px;
+}
+#about h2{
+    
+    width: 60%;
+    font-size: 88px;
+    line-height: 50px;
+    letter-spacing: 5px;
+}
+#about-part2{
+    width: 36%;
+    height: 100%;
+    padding: 0 50px;
+    border-left: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#about-part2 h3{
+    font-size: 35px;
+    font-weight: 600;
+}
+#icons{
+   
+}
+#icons i{
+    background-color: #000;
+    color: white;
+    padding: 7px;
+    font-size: 25px;
+    border-radius: 50px;
+    margin-right: 10px;
+    
+
+} 
+#work {
+    height: 45%;
+    width: 100%;
+    border-top: 2px;
+}
+#work1{
+    width: 30%;
+}
